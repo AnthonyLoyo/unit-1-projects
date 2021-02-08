@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    
+    margin: auto;
+    /* 
+        By setting the the rule 'margin: 0 auto;' we are telling the div to have a margin for the top and bottom of 0. The second rule 'auto' tells our div to center itself horizontally.
+    */
+
+    width: 80%;
+    /*
+        By setting the rule 'width: %80; we are telling the div to only take 80% of the space available to it.
+    */
+
+    /*                     FINAL NOTE
+
+         Our 'wrapper' was created by giving it a light grey background color.
+         Then we set its margin to auto which in turn would let it take up all of its given space horizontally.
+         Finally we gave our wrapper a width of 80% this when combined with margin auto, centers our wrapper div and gives it a equal spacing on both side this coming from remaining 20%.
+    */
+}
+
+.header {
+    background-color: #E7E5E6;
+    padding: 30px;
+}
+
+.logo {
+    background-color: #AEAEAE;
+    color: black;
+    padding: 10px 35px;
+    font-size: 40px;
+}
+.nav {
+    background-color: #A5A3A4;
+}
+
+.nav ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+    /*
+        By setting the rule 'display: inline-block;' our links sit next to each other, effectively creating a navigation bar.
+    */
+    padding: 10px 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
