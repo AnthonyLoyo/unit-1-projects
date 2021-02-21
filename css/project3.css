@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'sans-serif';
+}
+
+/* NAVIGATION START */
+
+.nav {
+    background-color: #F6F9F9;
+    padding: 20px 80px;
+}
+
+/* NAVIGATION END */
+
+/* MAIN START */
+
+#main {
+    background-image: url(../img/bg1.png);
+    /*
+        We use he rule 'background-image: url(../img/bg1.png);'
+        to select and image and place it as our background for our
+        web page.
+    */
+    height: 800px;
+    /*
+        we gave our '#main' div a height of 800px this lets our background image expand.
+    */
+    text-align: center;
+    /* 
+        We used the rule 'text-align:center' to center all of our text in out '#main' div
+    */
+}
+
+#main h1 {
+    color: #ffffff;
+    font-size: 120px;
+    padding-top: 225px;
+}
+
+#main hr {
+    border-color: #15A4FA;
+    /*
+        when trying to give a <hr> element a color. it will not respond to the color rule. the rule that must be use is 'border-color'.
+    */
+    width: 70%;
+    margin: 0 auto;
+}
