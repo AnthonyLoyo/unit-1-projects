@@ -46,3 +46,134 @@
     width: 70%;
     margin: 0 auto;
 }
+
+#main h2 {
+    color: #ffffff;
+    line-height: 87px;
+    text-align: center;
+}
+
+#main button {
+    background-color: transparent;
+    /*
+        By setting the rule 'background-color: transparent;' the 
+        button becomes... well, transparent.
+    */
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: 1px solid #15A4FA;
+    border-left: 1px solid #15A4FA;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+#info {
+    background-color: #F6F9F9;
+    text-align: center;
+    padding: 50px;
+}
+
+#info h1 {
+    color: #2D3950;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#info p {
+    color: #99A5C1;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 74%;
+}
+
+#features {
+    text-align: center;
+}
+
+#features .box {
+    display: inline-block;
+    font-weight: 400;
+    margin: 5% 1%;
+    padding: 8px;
+    width: 20%;
+}
+
+#features .iconBox {
+    background: linear-gradient(to right,  #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+    height: 100px;
+    margin: 0  auto;
+    width: 100px;
+}
+
+#features i {
+    color: #ffffff;
+    display: block;
+    font-size: 40px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+#features h3 {
+    color: #2D3950;
+    font-size: 22px;
+    margin: 3%;
+}
+
+#features p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.fa-mobile {
+    font-size: 55px;
+}
+
+.fa-paper-plane-o {
+    padding-top: 30px;
+}
+
+.fa-bullhorn {
+    font-size: 50px;
+}
+
+/* MAIN END */
+
+/* WORK START */
+
+#work {
+    background-color: #F6F9F9;
+    font-weight: 400;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#work h3 {
+    color: #2D3950;
+    font-size: 40px;
+}
+
+#work p {
+    color: #909090;
+    text-align: center;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+#work .box {
+    display: inline-block;
+    font-weight: 400;
+    margin: 2% 1% 0%;
+    padding: 10px;
+    width: 20%;
+}
+
+#work img {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
