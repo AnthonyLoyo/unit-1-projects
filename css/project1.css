@@ -1,1 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: brown;    
+    /*
+        SUMMARY:
+
+        If you specify 'width: 80%;', the element will take 80% of the width available to it but it will sit on the left of the page. Its only once you apply 
+        'margin: 0 auto' that the element will sit centrally. The remaining space will be divided evenly on both sides.
+    */
+}
+
+body {
+    background-color: #AEAEAE;
+}
+
+/* HEADER START */
+header {
+    background-color: #E7E5E6;
+    padding: 30px;
+}
+
+header .logo {
+   background-color: #AEAEAE;
+   display: inline-block;
+   font-size: 48px;
+   padding: 15px 50px;
+}
+/* HEADER END */
+
+/* NAVIGATION START */
+nav {
+    background-color: #A5A3A4;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 25px;
+}
+
+nav ul li a {
+    color: #FFFFF0;
+    text-decoration: none;
+}
+
+#left {
+    float: left;
+    background-color: #F3EFF0;
+}
+
+#left h1 {
+    font-size: 40px;
+    margin: 20px 20px;
+}
+
+#left p {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 20px; 
+}
